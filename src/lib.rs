@@ -1,4 +1,4 @@
-use ggez::graphics::{DrawMode, FillOptions, MeshBuilder, Rect, Color, WHITE};
+use ggez::graphics::{Color, DrawMode, FillOptions, MeshBuilder, Rect, WHITE};
 
 type FPoint = (f32, f32);
 
