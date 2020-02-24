@@ -9,7 +9,7 @@ fn floor(point: FPoint) -> FPoint {
 #[derive(Debug)]
 pub struct TextMeshBuilder<'a> {
     pub color: Color,
-    point: FPoint,
+    pub point: FPoint,
     mesh_builder: &'a mut MeshBuilder,
 }
 
